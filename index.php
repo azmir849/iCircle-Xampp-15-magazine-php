@@ -116,13 +116,25 @@
 
                         <div class="profiledesk">
                             <div class="profile">
-                                <h5> সম্পাদকের ডেস্ক</h5>
+                                <?php foreach ($front_section as $key => $menu) {
+                                    if ($menu->menui_item == 3 && $menu->status == 1) { ?>
+                                        <h5><?= $menu->page_title; ?></h5>
+                                        <div class="profileImg">
+                                            <img src="<?= "https://icircles.app/uploads/content/" . $ms_id . "/" . $menu->featured_image ?>" alt="">
+                                        </div>
+                                        <div class="profileBio">
+                                            <p><?= $menu->body_content; ?></p>
+                                        </div>
+                                <?php }
+                                } ?>
+
+                                <!-- <h5> সম্পাদকের ডেস্ক</h5>
                                 <div class="profileImg">
                                     <img src="images/poetry.jpg" alt="">
                                 </div>
                                 <div class="profileBio">
                                     <p>গোলাম মোস্তফা অনন্ত অসীম প্রেমময় তুমি বিচার দিনের স্বামী। যত গুণগান হে চির মহান তোমারি অন্তর্যামী। দ্যুলোক-ভূলোক সবারে ছাড়িয়া তোমারি চরণে পড়ি লুটাইয়া তোমারি সকাশে যাচি হে শকতি তোমারি করুণাকামী। সরল সঠিক পূণ্য পন্থা মোদের দাও গো বলি, চালাও সে-পথে যে-পথে তোমার প্রিয়জন গেছে চলি। যে-পথে তোমার চির-অভিশাপ যে-পথে ভ্রান্তি, চির-পরিতাপ হে মহাচালক,মোদের কখনও করো না সে পথগামী। </p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="buttonSection">

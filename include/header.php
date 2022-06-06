@@ -41,7 +41,7 @@ $sliders = $result->data->sliders;
     <!--
              Header Section Start 
    --------------------------------------------------->
-    <section>
+    <section id="home">
         <div class="header">
             <div class="container">
                 <div class="header_top">
@@ -79,11 +79,12 @@ $sliders = $result->data->sliders;
                         <div class="navbar">
                             <div class="navbar_left">
                                 <ul>
-                                    <li><a href="#">হোম</a></li>
+                                    <!-- <li><a href="#">হোম</a></li> -->
+                                    <li><a href="index.php">Home</a></li>
                                     <?php foreach ($main_nav as $key => $item) { ?>
                                         <li><a href=<?= "page.php?id=" . $item->id ?>><?= $item->menu_name ?></a></li>
                                     <?php } ?>
-                                    <li><a href="archive.html">সংরক্ষণাগার</a></li>
+                                    <li><a href="archive.php">সংরক্ষণাগার</a></li>
                                 </ul>
                             </div>
                             <div class="navbar_right">

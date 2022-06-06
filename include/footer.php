@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row"> 
                 <div class="col-lg-12 text-center">
-                    <h4>All Rights Reserved. Powered by iCircles LLC <img src="images/logo(1).png" alt=""></h4>
+                    <h4>© Copyright <?=date('Y')?>. All Rights Reserved by <?=$ms_info->name?> <img src="images/logo(1).png" alt=""></h4>
                 </div>
             </div>
         </div>
