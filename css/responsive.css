@@ -1,0 +1,323 @@
+@media (min-width: 280px) and (max-width: 319.98px){     
+/*header  section */
+.header .header_top .top_left .logo img {
+	width: 80px;
+}
+.home .home_wrapper .sideBar .sideBar_wrapper {
+	width: 100%;
+	padding: 20px 15px 100px 15px;
+	margin-bottom: 30px;
+}
+.header .header_top {
+	padding: 15px 0 12px 0;
+}
+.icon {
+	display: none ;
+}
+.header .header_top .top_right .info ul li i {
+	font-size: 13px;
+	padding-right: 0px;
+}
+.header .header_top .top_right .info ul li {
+	padding: 0 5px;
+	font-size: 13px;
+}
+.header .NavBarHeader .navItems .navbar .navbar_left ul li a {
+	font-size: 17px;
+}
+.header .NavBarHeader .navItems .navbar {
+	padding: 7px 0;
+}
+/* button */
+.home .home_wrapper .buttonSection ul li a {
+	font-size: 18px;
+}
+.home .home_wrapper .profiledesk .profile p {
+	font-size: 15px;
+}
+/* iframe */
+iframe {
+	height: 400px;
+}
+
+/* book */
+.book .book_wrapper .sideBar .sideBar_wrapper {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.book .book_wrapper .writer .writerInfo h4 {
+	padding: 20px 0 0 0;
+}
+
+
+
+}
+@media (min-width: 320px) and (max-width: 479.98px){     
+/*header  section */
+.header .header_top .top_left .logo img {
+	width: 80px;
+}
+.home .home_wrapper .sideBar .sideBar_wrapper {
+	width: 100%;
+	padding: 20px 15px 100px 15px;
+	margin-bottom: 30px;
+}
+.header .header_top {
+	padding: 15px 0 12px 0;
+}
+.icon {
+	display: none ;
+}
+.header .header_top .top_right .info ul li i {
+	font-size: 13px;
+	padding-right: 0px;
+}
+.header .header_top .top_right .info ul li {
+	padding: 0 5px;
+	font-size: 13px;
+}
+.header .NavBarHeader .navItems .navbar .navbar_left ul li a {
+	font-size: 17px;
+}
+.header .NavBarHeader .navItems .navbar {
+	padding: 7px 0;
+}
+/* button */
+.home .home_wrapper .buttonSection ul li a {
+	font-size: 18px;
+}
+.home .home_wrapper .profiledesk .profile p {
+	font-size: 15px;
+}
+/* iframe */
+iframe {
+	height: 400px;
+}
+
+/* book */
+.book .book_wrapper .sideBar .sideBar_wrapper {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.book .book_wrapper .writer .writerInfo h4 {
+	padding: 20px 0 0 0;
+}
+
+
+
+
+}
+@media (min-width: 480px) and (max-width: 575.98px){     
+	/*header  section */
+	.header .header_top .top_left .logo img {
+		width: 80px;
+	}
+	.home .home_wrapper .sideBar .sideBar_wrapper {
+		padding: 20px 15px 100px 15px;
+		margin: 0 auto;
+	}
+	.header .header_top {
+		padding: 15px 0 12px 0;
+	}
+	.icon {
+		display: none ;
+	}
+	.header .header_top .top_right .info ul li i {
+		font-size: 13px;
+		padding-right: 0px;
+	}
+	.home .home_wrapper .banner {
+	   margin-top: 30px;
+	}
+	.header .header_top .top_right .info ul li {
+		padding: 0 5px;
+		font-size: 13px;
+	}
+	.header .NavBarHeader .navItems .navbar .navbar_left ul li a {
+		font-size: 17px;
+	}
+	.header .NavBarHeader .navItems .navbar {
+		padding: 7px 0;
+	}
+	/* button */
+	.home .home_wrapper .buttonSection ul li a {
+		font-size: 18px;
+	}
+	.home .home_wrapper .profiledesk .profile p {
+		font-size: 15px;
+	}
+	/* iframe */
+	iframe {
+		height: 400px;
+	}
+	
+	/* book */
+	.book .book_wrapper .sideBar .sideBar_wrapper {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.book .book_wrapper .writer .writerInfo h4 {
+		padding: 20px 0 0 0;
+	}
+	
+	
+	
+	
+	}
+@media (min-width: 576px) and (max-width: 767.98px){     
+		/*header  section */
+		.header .header_top .top_left .logo img {
+			width: 80px;
+		}
+		.home .home_wrapper .sideBar .sideBar_wrapper {
+			padding: 20px 15px 100px 15px;
+			margin: 0 auto;
+		}
+		.header .header_top {
+			padding: 15px 0 12px 0;
+		}
+		.header .header_top .top_right .info ul li i {
+			font-size: 13px;
+			padding-right: 0px;
+		}
+		.home .home_wrapper .banner {
+		   margin-top: 30px;
+		}
+		.header .header_top .top_right .info ul li {
+			padding: 0 5px;
+			font-size: 13px;
+		}
+		.header .NavBarHeader .navItems .navbar .navbar_left ul li a {
+			font-size: 17px;
+		}
+		.header .NavBarHeader .navItems .navbar {
+			padding: 7px 0;
+		}
+		/* button */
+		.home .home_wrapper .buttonSection ul li a {
+			font-size: 18px;
+		}
+		.home .home_wrapper .profiledesk .profile p {
+			font-size: 15px;
+		}
+		/* iframe */
+		iframe {
+			height: 400px;
+		}
+		
+		/* book */
+		.book .book_wrapper .sideBar .sideBar_wrapper {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		.book .book_wrapper .writer .writerInfo h4 {
+			padding: 20px 0 0 0;
+		}
+		
+		/* archive */
+		.archive .archive_wrapper .archive_card .arcchiveImg {
+			height: 270px;
+		}
+		.archive .archive_wrapper .archive_card .archiveText h4 {
+			font-size: 20px;
+		}
+		
+}
+@media (min-width: 768px) and (max-width: 991.98px){     
+	/*header  section */
+	.header .header_top .top_left .logo img {
+		width: 80px;
+	}
+	.home .home_wrapper .sideBar .sideBar_wrapper {
+		padding: 20px 15px 100px 15px;
+		margin: 0 auto;
+	}
+	.header .header_top {
+		padding: 15px 0 12px 0;
+	}
+	.header .header_top .top_right .info ul li i {
+		font-size: 13px;
+		padding-right: 0px;
+	}
+	.home .home_wrapper .banner {
+	   margin-top: 30px;
+	}
+	.header .header_top .top_right .info ul li {
+		padding: 0 5px;
+		font-size: 13px;
+	}
+	.header .NavBarHeader .navItems .navbar .navbar_left ul li a {
+		font-size: 17px;
+	}
+	.header .NavBarHeader .navItems .navbar {
+		padding: 7px 0;
+	}
+	/* button */
+	.home .home_wrapper .buttonSection ul li a {
+		font-size: 18px;
+	}
+	.home .home_wrapper .profiledesk .profile p {
+		font-size: 15px;
+	}
+	/* iframe */
+	iframe {
+		height: 400px;
+	}
+	
+	/* book */
+	.book .book_wrapper .sideBar .sideBar_wrapper {
+		margin: 0 auto;
+	}
+	.bookPdf{
+		margin: 30px 0;
+	}
+	.book .book_wrapper .writer .writerInfo h4 {
+		padding: 20px 0 0 0;
+	}
+	
+	/* archive */
+	.archive .archive_wrapper .archive_card .arcchiveImg {
+		height: 240px;
+	}
+	.archive .archive_wrapper .archive_card .archiveText h4 {
+		font-size: 20px;
+	}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.home .home_wrapper .sideBar .sideBar_wrapper {
+		width: 230px;
+	}
+	/* archive */
+	.archive .archive_wrapper .archive_card .arcchiveImg {
+		height: 240px;
+	}
+	.archive .archive_wrapper .archive_card .archiveText h4 {
+		font-size: 19px;
+	}
+	.archive .archive_wrapper .archive_card .archiveText h5 {
+		font-size: 15px;
+	}
+	.book .book_wrapper .sideBar .sideBar_wrapper {
+		width: 215px;
+	}
+}    
+
+@media (min-width: 1200px) and (max-width: 1299.98px){
+	.home .home_wrapper .sideBar .sideBar_wrapper {
+		width: 270px;
+	}
+	.book .book_wrapper .sideBar .sideBar_wrapper {
+		width: 255px;
+	}
+}  
+
+@media (min-width: 1300px) and (max-width: 1399.98px){
+	.home .home_wrapper .sideBar .sideBar_wrapper {
+		width: 270px;
+	}
+	.book .book_wrapper .sideBar .sideBar_wrapper {
+		width: 255px;
+	}
+}  

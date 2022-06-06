@@ -1,0 +1,133 @@
+.backNav{
+    padding: 20px 0 0 0;
+    ul{
+        li{
+            a{
+                font-size: 18px;
+                color: $black;
+                font-weight: 600;
+                &:hover{
+                    color: $primaryColor;
+                }
+                i{
+                    color: $primaryColor;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}
+.book{
+    .publishedate{
+        text-align:end ;
+        h6{
+            font-size: 17px;
+            color: $primaryColor;
+            font-weight: 500;
+        }
+    }
+    .book_wrapper{
+        padding: 40px 0;
+        .sideBar{
+            .sideBar_wrapper{
+                width: 300px;
+                padding: 20px 15px 70px 15px;
+                box-shadow: 1px 1.332px 4px 2px #7c7c7c4d;
+                border-radius: 12px;
+                background-color: #fff;
+                ul{
+                    li{
+                      padding: 14px 0 10px 0;
+                      border-bottom: 1px solid rgb(190, 189, 189);
+                      display: flex;
+                     .profileIcon{
+                        i{
+                            font-size: 17px;
+                            color: rgb(43, 42, 42);
+                            height: 38px;
+                            width: 38px;
+                            border: 1px solid rgb(190, 189, 189);
+                            text-align: center;
+                            line-height: 37px;
+                            border-radius: 50%;
+                        }
+                     }
+                     .profileDetail{
+                         padding-left: 10px;
+                         h4{
+                             font-size: 19px;
+                             color: $black;
+                             font-weight: 500;
+                             line-height: 24px;
+                         }
+                         h5{
+                            font-size: 15px;
+                            color: $primaryColor;
+                            font-weight: 500; 
+                            line-height: 15px;
+                        }
+                     }
+                      
+                    }
+                }
+            }
+        }
+        .writer{
+            .writer_webcard{
+                img{
+                    width: 100%;
+                    border-radius: 4px;
+                }
+            }
+            .writerInfo{
+                h4{
+                    font-size: 22px;
+                    color: $black;
+                    font-weight: 600;
+                    text-align: center;
+                    padding: 10px 0 0 0;
+                }
+                .writer_profile{
+                    padding: 10px 0 8px 0;
+                    display: flex;
+                    justify-content: center;
+                   .profileIcon{
+                      i{
+                          font-size: 16px;
+                          color: rgb(43, 42, 42);
+                          height: 35px;
+                          width: 35px;
+                          border: 1px solid rgb(190, 189, 189);
+                          text-align: center;
+                          line-height: 35px;
+                          border-radius: 50%;
+                      }
+                   }
+                   .profileDetail{
+                       padding-left: 15px;
+                       h5{
+                           font-size: 19px;
+                           color: $black;
+                           font-weight: 500;
+                       }
+                       h6{
+                          font-size: 15px;
+                          color: $primaryColor;
+                          font-weight: 500; 
+                          line-height: 18px;
+                      }
+                   }
+                    
+                  }
+            }
+            .about{
+                p{
+                    font-size: 15px;
+                    color: $text;
+                    font-weight: 400;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

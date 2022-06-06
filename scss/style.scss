@@ -1,0 +1,44 @@
+/*<><><><><><><<><><><><><<><><><><>
+
+Template Name: Dhaka Report 24 
+Template URL : 
+Description  :
+Author       : Fahim Ahmed
+Author URL   :
+Version      : 1.1.1
+
+<><><><><><><<><><><><><<><><><><>*/
+
+
+
+
+
+/*     Google Font Connections
+-------------------------------------*/
+
+/*      SCSS Pages Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+
+@import "../scss/common_css/common";
+
+@import "../scss/mixin_scss/mixin";
+
+@import "../scss/variable_scss/variable";
+
+
+
+/*     SCSS Sections Connections 
+------------------------------------*/
+@import "../scss/header";  
+@import "../scss/home";  
+@import "../scss/footer";  
+@import "../scss/backtotop";  
+
+
+
+/*     Sub Page Connections 
+------------------------------------*/
+@import "../scss/archivePage/archive";  
+@import "../scss/book/book";  
+
+
