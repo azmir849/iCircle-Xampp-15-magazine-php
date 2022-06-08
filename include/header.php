@@ -1,6 +1,6 @@
 <?php
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://icircles.app/api/generalservice/home/170');
+curl_setopt($ch, CURLOPT_URL, 'https://icircles.app/api/generalservice/home/173');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
 $result = json_decode($response);
@@ -84,7 +84,7 @@ $sliders = $result->data->sliders;
                                     <?php foreach ($main_nav as $key => $item) { ?>
                                         <li><a href=<?= "page.php?id=" . $item->id ?>><?= $item->menu_name ?></a></li>
                                     <?php } ?>
-                                    <li><a href="archive.php">সংরক্ষণাগার</a></li>
+                                    <!-- <li><a href="archive.php">সংরক্ষণাগার</a></li> -->
                                 </ul>
                             </div>
                             <div class="navbar_right">
