@@ -39,106 +39,39 @@ $pdfBooks = $result1->data;
                         <div class="sideBar">
                             <div class="sideBar_wrapper">
                                 <ul>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="profileIcon">
-                                            <i class="fa-solid fa-user"></i>
-                                        </div>
-                                        <div class="profileDetail">
-                                            <h4>নামের তথ্য</h4>
-                                            <h5>নামের তথ্য নামের তথ্য</h5>
-                                        </div>
-                                    </li>
+                                    <?php
+                                    foreach ($no_position as $value) {
+                                    ?>
+                                        <li>
+                                            <div class="profileIcon">
+                                                <img src="<?= "https://icircles.app/uploads/content/" . $ms_id . "/" . $value->featured_image ?>" alt="">
+                                            </div>
+                                            <div class="profileDetail">
+                                                <h5 class="mt-3"><a href=<?= "book.php?id=" . $value->id ?>><?= $value->menu_name ?></a></h5>
+                                            </div>
+                                        </li>
+                                    <?php
+                                    }
+                                    ?>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                        <div class="col-lg-9 p-0">
-                            <div class="bookPdf">
-                                <?php foreach ($pdfBooks as $value) {
-                                    if($value->documents){?>
-                                     <iframe src="<?= "https://icircles.app/uploads/content/" . $ms_id ?>/<?= $value->documents ?>" width="100%" height="750px" style="border: none;" allowFullScreen>
+                    <div class="col-lg-9 p-0">
+                        <div class="bookPdf">
+                            <?php foreach ($pdfBooks as $value) {
+                                if ($value->documents) { ?>
+                                    <iframe src="<?= "https://icircles.app/uploads/content/" . $ms_id ?>/<?= $value->documents ?>" width="100%" height="750px" style="border: none;" allowFullScreen>
                                     </iframe>
-                                    <?php
-                                    }else{?>
-                                        <h3 class="text-center mt-5">Documents Not Found!!.Please upload your documents.</h3>
-                                     <?php
-                                    }
-                                     ?>
-                                <?php } ?>
-                            </div>
+                                <?php
+                                } else { ?>
+                                    <h3 class="text-center mt-5">Documents Not Found!!.Please upload your documents.</h3>
+                                <?php
+                                }
+                                ?>
+                            <?php } ?>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -9,96 +9,21 @@
                         <div class="sideBar">
                             <div class="sideBar_wrapper">
                                 <ul>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="name"><a href="#">নামের তথ্য</a></div>
-                                        <div class="edit">
-                                            <ul>
-                                                <li><i class="fa-solid fa-pen-to-square"></i></li>
-                                                <li><i class="fa-solid fa-trash"></i></li>
-                                            </ul>
-                                        </div>
-                                    </li>
+                                    <?php
+                                    foreach ($no_position  as $value) {
+                                    ?>
+                                        <li>
+                                            <div class="name"><a href=<?= "book.php?id=" . $value->id ?>><?=$value->menu_name?></a></div>
+                                            <div class="edit">
+                                                <ul>
+                                                    <li><i class="fa-solid fa-pen-to-square"></i></li>
+                                                    <li><i class="fa-solid fa-trash"></i></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    <?php
+                                    }
+                                    ?>
                                 </ul>
                             </div>
                         </div>
