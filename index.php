@@ -10,7 +10,7 @@
                             <div class="sideBar_wrapper">
                                 <ul>
                                     <?php
-                                    foreach ($no_position  as $value) {
+                                    foreach (array_slice($no_position,0,10)  as $value) {
                                     ?>
                                         <li>
                                             <div class="name"><a href=<?= "book.php?id=" . $value->id ?>><?=$value->menu_name?></a></div>
